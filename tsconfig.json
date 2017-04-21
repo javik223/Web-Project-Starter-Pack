@@ -1,0 +1,15 @@
+{
+    "files": [
+        "./src/ts/app.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "outDir": "./assets/js/",
+        "sourceMap": true
+    }
+}

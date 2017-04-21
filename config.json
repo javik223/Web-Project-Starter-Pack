@@ -1,0 +1,42 @@
+{
+    "ts_src": "src/ts",
+    "ts_dest": "assets/js",
+
+    "sass": {
+      "src_dir": "src/sass",
+      "options": {
+        "errLogToConsole": true,
+        "outputStyle": "compressed",
+        "includePaths": ["node_modules/foundation-sites/scss", "node_modules/bootstrap/scss"]
+      }
+    },
+
+    "css": {
+      "dest_dir": "assets/css"
+    },
+
+    "js": {
+      "src_dir": "src/js",
+      "dest_dir": "assets/js",
+      "src_file": "app.js",
+      "dest_file": "app.min.js"
+    },
+
+    "ts": {
+      "basedir": ".",
+      "src_dir": "src/ts",
+      "dest_dir": "assets/js",
+      "entries": ["src/ts/app.ts"],
+      "dest_file": "bundle.js"
+    },
+
+    "image": {
+      "src_dir": "src/img",
+      "dest_dir": "assets/img"
+    },
+    
+    "kit": {
+      "src_dir": "src/kit",
+      "dest_dir": "."
+    }
+}
